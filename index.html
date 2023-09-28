@@ -1,397 +1,84 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <title>Full Stack Mobile, Web & App Developer | Bisma</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Accordion</title>
   </head>
   <body>
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="./index.html" class="nav_logo" class="active">
-          <i class="fa-solid fa-b fa-2x"></i>Bisma</a
-        >
-
-        <div class="nav_menu" id="nav_menu">
-          <ul class="nav_list grid">
-            <li class="nav-item">
-              <a href="./about.html" class="nav_link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="./project.html" class="nav_link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="./mentor.html" class="nav_link">Mentornship</a>
-            </li>
-            <li class="nav-item">
-              <a href="./blogs.html" class="nav_link">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="./form.html" class="nav_link">Get in Touch</a>
-            </li>
+    <div class="accordion">
+      <div class="item">
+        <p class="number">01</p>
+        <h2>My name is Vinod</h2>
+        <div class="iconsOpen">
+          <i class="icon fa-solid fa-plus"></i>
+        </div>
+        <div class="iconsClose">
+          <i class="icon fa-solid fa-xmark"></i>
+        </div>
+        <div class="hidden-box">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
+            ipsam assumenda laboriosam labore rem, aspernatur enim veniam
+            provident aperiam maiores asperiores deserunt in.
+          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa!</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum.</li>
           </ul>
         </div>
-      </nav>
-    </header>
-
-    <!-- =========================================SECTION====================================== -->
-    <div id="section-1">
-      <div class="section-1">
-        <h2>
-          When people need help with design, development, and training - they
-          come to me.
-        </h2>
-        <a href="./about.html" class="btn">
-          <button type="button" class="btn btn-primary">Discover</button>
-        </a>
       </div>
-    </div>
-    <div id="section-2">
-      <div class="section-2">
-        <h2>Hi, I’m Bisma. Nice to meet you.</h2>
-        <p>
-          I help small and large-scale companies with Frontend and Backend
-          Development. And I love to create beautiful and efficient websites for
-          my customers. I love going through the entire process with the
-          customer from concept, to design and then development and launch.
-        </p>
-      </div>
-
-      <div class="container">
-        <div class="rows">
-          <div class="row1">
-            <i class="fa-solid fa-gem fa-2x"></i>
-            <h2>Designer</h2>
-            <p>
-              Successful online projects start with good design. It establishes
-              a solid foundation for future development and allows for long term
-              growth
-            </p>
-            <div class="para">
-              <li class="blue-line">Things I enjoy designing:</li>
-              <li>UX, UI, Web, Apps, Logos</li>
-            </div>
-            <li class="blue-line">Design Tools:</li>
-            <li>Adobe XD</li>
-            <li>Webflow</li>
-            <li>Figma</li>
-          </div>
+      <div class="item">
+        <p class="number">02</p>
+        <h2>My name is Bahadur</h2>
+        <div class="iconsOpen">
+          <i class="icon fa-solid fa-plus"></i>
         </div>
-        <div class="rows">
-          <div class="row2">
-            <i class="fa-solid fa-code fa-2x"></i>
-            <h2>Developer</h2>
-            <p>
-              I can code my own designs or even use the customer's design as
-              base. My focus is to generate clean code that's well structured
-              for reliability
-            </p>
-            <div class="para">
-              <li class="blue-line">Languages I speak:</li>
-              <li>English, Urdu, Hindi</li>
-            </div>
-            <li class="blue-line">Dev Tools:</li>
-            <li>React JS</li>
-            <li>Next JS</li>
-            <li>Gatsby JS</li>
-            <li>Node JS</li>
-            <li>React Native</li>
-            <li>WordPress</li>
-            <li>AWS, S3, EC2</li>
-          </div>
+        <div class="iconsClose">
+          <i class="icon fa-solid fa-xmark"></i>
         </div>
-        <div class="rows">
-          <div class="row3">
-            <i class="fa-solid fa-book fa-2x"></i>
-            <h2>Mentor</h2>
-            <p>
-              I genuinely care about people, and love helping fellow developers
-              work on their projects and new ideas.
-            </p>
-            <div class="para">
-              <li class="blue-line fa-2x">Experiences I draw from:</li>
-              <li>Frontend/Backend, Product, Freelancing</li>
-            </div>
-            <li class="blue-line">Mentor Stats:</li>
-            <li>4+ years experience</li>
-            <li>10+ students</li>
-            <li>100+ mentor sessions</li>
-            <li>10+ group critiques</li>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="section-3">
-      <div class="section-3">
-        <h2>My recent work</h2>
-        <p>
-          Here are a few past design projects I've worked on. Want to see more?
-
-          <span><a href="#">Email me.</a></span>
-        </p>
-      </div>
-      <div class="images">
-        <div class="cards">
-          <div class="card">
-            <div class="img">
-              <h3>Epleyer</h3>
-              <p>
-                Live Streaming, Game Stats, Videos, Photos, Social Media and so
-                much more…
-              </p>
-              <a href="https://epleyer.gg/home" target="_blank" class="btn">
-                <button type="button" class="btn btn-primary">
-                  Visit Website
-                </button>
-              </a>
-            </div>
-            <img src="../images/epleyer.webp" alt="" width="100%" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <div class="img">
-              <h3>Nickelfox</h3>
-              <p>
-                Nickelfox is a indian based company for full stack software
-                development, and web design...
-              </p>
-              <a href="https://www.nickelfox.com/" target="_blank" class="btn">
-                <button type="button" class="btn btn-primary">
-                  Visit Website
-                </button>
-              </a>
-            </div>
-            <img src="../images/nickelfox.webp" alt="" width="100%" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <div class="img">
-              <h3>Helios</h3>
-              <p>
-                The new way to analyse meaning using the true metric of the
-                human nature the voice...
-              </p>
-              <a
-                href="https://helioslife.enterprises/"
-                target="_blank"
-                class="btn"
-              >
-                <button type="button" class="btn btn-primary">
-                  Visit Website
-                </button>
-              </a>
-            </div>
-            <img src="../images/helios.webp" alt="" width="100%" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <div class="img">
-              <h3>Unvired</h3>
-              <p>
-                Unvired enables digital transformation at disruptively lower
-                cost and faster time, resulting in enhanced competitive
-                advantage for enterprises globally.
-              </p>
-              <a href="https://unvired.com/" target="_blank" class="btn">
-                <button type="button" class="btn btn-primary">
-                  Visit Website
-                </button>
-              </a>
-            </div>
-            <img src="../images/unvired.webp" alt="" width="100%" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <div class="img">
-              <h3>Zen3 Tech</h3>
-              <p>
-                At Zen3 Infosolutions, our experts in AI, machine learning and
-                cloud solutions help you outrun your competitors and lead
-                industry with efficiency and innovation
-              </p>
-              <a href="https://zen3tech.com/" target="_blank" class="btn">
-                <button type="button" class="btn btn-primary">
-                  Visit Website
-                </button>
-              </a>
-            </div>
-            <img src="../images/zen3tech.webp" alt="" width="100%" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <div class="img">
-              <h3>Kyocera Intelligence</h3>
-              <p>
-                Kyocera Intelligence, support businesses in Baltimore,
-                Washington DC, Philadelphia, New Jersey and The Mid-Atlantic
-                Region with IT Services
-              </p>
-              <a
-                href="https://www.kimidatlantic.com/"
-                target="_blank"
-                class="btn"
-              >
-                <button type="button" class="btn btn-primary">
-                  Visit Website
-                </button>
-              </a>
-            </div>
-            <img
-              src="../images/kyocera-intelligence.webp"
-              alt=""
-              width="100%"
-            />
-          </div>
-        </div>
-      </div>
-      <a href="./project.html" class="button">
-        <button>See More Work <i class="fa-solid fa-arrow-right"></i></button>
-      </a>
-    </div>
-    <div id="section-4">
-      <div class="section-4">
-        <h2>What my clients say</h2>
-        <p>
-          Nico, and abdul was looking for a Full-Stack Experienced Developer!
-          And now they're sharing their experience of working with me:
-        </p>
-      </div>
-      <div class="videos">
-        <video
-          controls
-          src="../video/nico-testimonial.mp4"
-          poster="../images/nico.webp"
-          type="video/mp4"
-        ></video>
-        <video
-          controls
-          src="../video/abdul-testimonial.mp4"
-          poster="../images/abdul.webp"
-          type="video/mp4"
-        ></video>
-      </div>
-    </div>
-    <div id="section-5">
-      <div class="section-5">
-        <h2>I'm proud to have collaborated with some</h2>
-        <h2>awesome companies:</h2>
-      </div>
-      <div class="images">
-        <div class="img1">
-          <img src="../images/kapwise.webp" alt="kapwise" width="170vw" />
-        </div>
-        <div class="img2">
-          <img src="../images/nimmio.webp" alt="nimmio" width="120vw" />
-        </div>
-        <div class="img3">
-          <img
-            src="../images/alternative.png"
-            alt="alternative"
-            width="120vw"
-          />
-        </div>
-        <div class="img4">
-          <img
-            src="../images/premierlister.webp"
-            alt="premierlister"
-            width="150vw"
-          />
-        </div>
-        <div class="img5">
-          <img
-            src="../images/nickelfox(1).webp"
-            alt="nickelfox"
-            width="120vw"
-          />
-        </div>
-        <div class="img6">
-          <img
-            src="../images/hello-fello.webp"
-            alt="hellofello"
-            width="120vw"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- ========================================FOOTER================================== -->
-    <div id="footer">
-      <div class="footer">
-        <div class="container">
-          <h2>Start a project</h2>
+        <div class="hidden-box">
           <p>
-            Interested in working together? We should queue up a time to chat.
-            I’ll buy the coffee.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
+            ipsam assumenda laboriosam labore rem, aspernatur enim veniam
+            provident aperiam maiores asperiores deserunt in.
           </p>
-          <a href="./form.html" class="btn">
-            <button type="button">
-              Connect With Me <i class="fa-solid fa-angle-right"></i>
-            </button>
-          </a>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa!</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum.</li>
+          </ul>
+        </div>
+      </div>  <div class="item">
+        <p class="number">03</p>
+        <h2>My name is Thapa</h2>
+        <div class="iconsOpen">
+          <i class="icon fa-solid fa-plus"></i>
+        </div>
+        <div class="iconsClose">
+          <i class="icon fa-solid fa-xmark"></i>
+        </div>
+        <div class="hidden-box">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
+            ipsam assumenda laboriosam labore rem, aspernatur enim veniam
+            provident aperiam maiores asperiores deserunt in.
+          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa!</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum.</li>
+          </ul>
         </div>
       </div>
-      <div class="text">
-        <h2>Bisma - Self Taught Developer</h2>
-        <p>Living, learning, and leveling up one day a time.</p>
-      </div>
-      <div class="icon">
-        <a
-          href="https://www.facebook.com/justhanzala"
-          target="_blank"
-          class="facebook"
-        >
-          <i class="fa-brands fa-facebook-f fw-bold fa-1x"></i>
-        </a>
-        <a
-          href="https://twitter.com/justhanzala"
-          target="_blank"
-          class="twitter"
-        >
-          <i class="fa-brands fa-twitter fw-bold fa-1x"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQERV_ZRaAFeGQAAAYYB4CBYc-Ea0vIdV9gQZwND6gHzUhONV24JwaJz1fR9VkQHfO5eV3ywYTgBHIClazsroi1i8TiZi5SE9fvbbZhi-zc0tseodwH4aGzxyx0hBP1YK8xGJYM=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhanzala-%2F"
-          target="_blank"
-          class="linkedin"
-        >
-          <i class="fa-brands fa-linkedin fw-bold fa-1x"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/me.hanzala/"
-          target="_blank"
-          class="instagram"
-        >
-          <i class="fa-brands fa-instagram fw-bold fa-1x"></i>
-        </a>
-        <a
-          href="https://join.skype.com/invite/xNOYFg7bGhdM"
-          target="_blank"
-          class="skype"
-        >
-          <i class="fa-brands fa-skype fw-bold fa-1x"></i>
-        </a>
-        <a
-          href="https://www.upwork.com/freelancers/hanzala"
-          target="_blank"
-          class="up"
-        >
-          <i class="fa-brands-2x fw-bold">up</i>
-        </a>
-      </div>
     </div>
-    <script src="../script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
