@@ -1,104 +1,56 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-}
-
-html {
-  color: #24305f;
+  outline: none;
 }
 
 body {
-  background-color: #fffdfb;
-}
-
-.accordion {
-  width: 50%;
-  margin: 200px auto;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.item {
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: 30px;
+  justify-content: center;
   align-items: center;
-  padding: 30px;
-  cursor: pointer;
-  border-radius: 5px;
+  background-color: rgb(133, 196, 238);
 }
 
-.active {
-  position: relative;
-}
-
-.active::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  border-top: 2px solid #1864ab;
-  animation: borderline 1s linear forwards;
-}
-
-@keyframes borderline {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-.active .hidden-box {
-  display: block;
-}
-
-h2 {
-  font-size: 24px;
-  text-transform: capitalize;
-}
-
-.number {
-  font-size: 32px;
-}
-
-.icon {
-  width: 24px;
-  height: 24px;
-  color: #1864ab;
-}
-
-.hidden-box {
-  grid-column: 2/3;
-  display: none;
-}
-
-.hidden-box p {
-  line-height: 1.6;
-  margin-bottom: 24px;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  word-spacing: 3px;
-}
-
-.hidden-box ul {
+.face {
+  background-color: rgb(223, 217, 217);
+  height: 550px;
+  width: 600px;
+  border-radius: 50%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
-  gap: 24px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
-.hidden-box ul li {
-  margin-left: 16px;
-  line-height: 1.5;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  word-spacing: 3px;
+.eyes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+  height: 300px;
+}
+
+.eye {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px, rgba(1, 0, 0, 0.90) 0 24px -90px;
+  overflow: hidden;
+}
+
+.pupil {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 10px 50px;
 }
